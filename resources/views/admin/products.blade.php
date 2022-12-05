@@ -246,7 +246,12 @@
 </div>
 
 </section>
-
+<style>
+    .ex {
+    background-color: #00a65a !important;
+    color: #ffffff !important;
+}
+</style>
 @endsection
 
 @push('AJAX')
@@ -273,6 +278,21 @@
 
         // Show tabel
         $('#records_table').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                {
+            extend: 'excelHtml5',
+            className: 'ex',
+            text: '<span class="fa fa-file-excel-o"></span> Excel Export',
+            exportOptions: {
+        orthogonal: 'excelHtml5',
+        columns: [1,2,3,4,5,6,7,8,9,10,11,12] ,
+        rows: { order:'current', search: 'none' },
+       
+        },
+        },
+    
+        ],
             language: {
                 "emptyTable": "{{ __('table.emptyTable') }}",
                 "loadingRecords": "{{ __('table.loadingRecords') }}",
@@ -295,7 +315,7 @@
                 }
             },
             processing: true,
-            serverSide: true,
+            serverSide: false,
             "order": [[ 1, "desc" ]],
             ajax: {
                 url: "{{ route('products.index') }}",
