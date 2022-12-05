@@ -1,0 +1,191 @@
+<?php
+
+/*
+|---------------------------------
+| ---------- Dashboard -----------
+|---------------------------------
+*/
+
+return [
+
+    // Head
+    'Dashboard' => 'لوحة التحكم',
+
+    // Header
+    'Home'         => 'الصفحة الرئيسية',
+    'MemberSince'  => 'عضو من تاريخ',
+    'SignOut'      => 'نسجيل الخروج',
+    'Profile'      => 'الملف الشخصي',
+
+    // Sidebar
+    'Online'         => 'متصل',
+    'Products'       => 'المنتجات',
+    'MAIN NAVIGATION' => 'العناصر الرئيسية',
+    'Categories'      => 'الأقسام',
+    'Users'           => 'المستخدمين',
+    'Orders'          => 'الطلبات',
+    'Reviews'         => 'التقييمات',
+    'Notifications'   => 'الإشعارات',
+    'Brands'          => 'العلامات التجارية',
+    'Languages'       => 'اللغات',
+
+    // Footer
+    'Copyright'            =>'حقوق النشر © 2020-2021',
+    'Your Store'           =>'متجرك الإلكتروني',
+    'All rights reserved'  =>'جميع الحقوق محفوظة',
+
+    // Notifications
+    'Notifications'    =>'الإشعارات',
+    'Update'           =>'تحديث',
+    'Current Quantity' =>'الكمية الحالية',
+    'Remove'           =>'إزالة',
+    'Info'             =>'التفاصيل',
+
+    // Home
+    'Hello'                   => 'مرحبا',
+    'starthere'               => 'إبدأ بإدارة التطبيق من هنا.',
+    'More info'               => 'عرض المزيد',
+    'New Orders'              => 'طلبات جديدة',
+    'New Orders text'         => 'طلبات جديدة بانتظار التسليم!',
+    'New reviews'             => 'تقييمات جديدة',
+    'New reviews text'        => 'تقييمات جديدة بانتظار الموافقة!',
+    'User Registrations'      => 'أعضاء جدد',
+    'User Registrations text' => 'في آخر ثلاثين يوم',
+    'Notifications'           => 'الإشعارات',
+    'Notifications text'      => 'كمية منتجاتك شارفت على الانتهاء!',
+    'Add item'                => 'إضافة عنصر',
+    'To Do List'              => 'قائمة المهام',
+    'Close'                   => 'إغلاق',
+    'Save Task'               => 'حفظ المهمة',
+    'Duration'                => 'المدة',
+    'Description'             => 'الوصف',
+    'Task Title'              => 'اسم المهمة',
+    'Add New Task'            => 'إضافة مهمة جديدة',
+    'Edit Task'               => 'تعديل المهمة',
+    'duration text'           => 'أدخل المدة اللازمة لتنفيذ المهمة بالأيام',
+    'Saving...'               => 'جاري الحفظ...',
+    'Editting...'             => 'جاري التعديل...',
+    'days'                    => 'أيام',
+
+    // Products
+    'Products'             => 'المنتجات',
+    'Name'                 => 'الاسم',
+    'Code'                 => 'الرمز',
+    'Category'             => 'القسم',
+    'Brand'                => 'العلامة التجارية',
+    'Quantity'             => 'الكمية',
+    'Price'                => 'السعر',
+    'Discount'             => 'الحسم',
+    'Color'                => 'اللون',
+    'Size'                 => 'المقاس',
+    'Edit Product'         => 'تعديل المنتج',
+    'Delete Product'       => 'حذف المنتج',
+    'Select Main Category' => 'اختار القسم الرئيسي',
+    'Select Brand'         => 'اختار العلامة التجارية',
+    'Product Image'        => 'صورة المنتج',
+    'MoreInfoDesc'         => 'في هذا الحقل أدخل معلومات تفصيلية على الشكل: اسم الخاصية: القيمة',
+    'Select Size'          => 'اختر المقاس',
+    'Select Color'         => 'اختر اللون',
+    'Red'                  => 'أحمر',
+    'Blue'                 => 'ازرق',
+    'Black'                => 'أسود',
+    'Brown'                => 'بني',
+    'Yellow'               => 'أصفر',
+    'Green'                => 'أخضر',
+    'Orange'               => 'برتقالي',
+    'Purple'               => 'بنفسجي',
+    'Pink'                 => 'زهري',
+    'Gray'                 => 'رمادي',
+    'White'                => 'أبيض',
+    'CodeDesc'             => 'هذا الرمز يجب أن يتشابه في كل المنتجات التي تشترك بالوصف، السعر... وتختلف باللون والمقاس',
+    'MoreInfo'             => 'معلومات تفصيلية',
+    
+
+    // Categories
+    'Categories'       => 'الأقسام',
+    'Main Category'    => 'قسم رئيسي',
+    'Name of Category' => 'اسم القسم',
+    'Description'      => 'الوصف',
+    'Category Image'   => 'صورة القسم',
+    'Select Category'  => 'اختر قسم',
+    'Edit Category'    => 'تعديل القسم',
+    'Delete Category'  => 'حذف القسم',
+    
+    // Brands
+    'Select Brand Image' => 'اختر صورة العلامة التجارية',
+    'Edit Brand'         => 'تعديل العلامة التجارية',
+    'Delete Brand'       => 'حذف العلامة التجارية',
+
+    //Orders
+    'Delivered'        => 'مسلمة',
+    'Pending'          => 'بانتظار التسليم',
+    'DoneDelivered'    => 'تم التسليم',
+    'View Order'       => 'عرض الطلب',
+    'View Customer'    => 'عرض المشتري',
+    'Date of Order'    => 'تاريخ الطلب',
+    'Total Price'      => 'السعر الإجمالي',
+    'Status'           => 'الحالة',
+    'Delivered Orders' => 'الطلبات المسلمة',
+    'Pending Orders'   => 'الطلبات الغير مسلمة',
+    'All Orders'       => 'كل الطلبات',
+    'Customer Info'    => 'معلومات المشتري',
+    'Order Info'       => 'معلومات الطلب',
+
+    //Reviews
+    'Reviews'          => 'التقييمات',
+    'DoneAccept'       => 'قبول',
+    'Accepted'         => 'مقبول',
+    'RevPending'       => 'بانتظار القبول',
+    'View Product'     => 'عرض المنتج',
+    'View User'        => 'عرض المستخدم',
+    'Stars'            => 'عدد النجوم',
+    'Message'          => 'التقييم',
+    'Product ID'       => 'رقم تعريف المنتج',
+    'User ID'          => 'رقم تعريف المستخدم',
+    'Accepted Reviews' => 'التقييمات المقبولة',
+    'Pending Reviews'  => 'تقييمات بانتظار القبول',
+    'All Reviews'      => 'كل التقييمات',
+    'User Info'        => 'معلومات المستخدم',
+    'Product Info'     => 'معلومات المنتج',
+    'Unit Price'       => 'سعر القطعة',
+
+    // Sessions
+    'added' => 'تم إضافة المعلومات بنجاح إلى جدول :var.',
+    'updated' => 'تم تحديث المعلومات بنجاح في جدول :var.',
+    'deleted' => 'تم إزالة المعلومات بنجاح من جدول :var.',
+    'There were some problems with your input.'=> 'حدث خطأ ما.',
+    'Whoops' => 'خطإ',
+
+    // Users
+    'Create Record'        => 'إضافة عنصر جديد',
+    'Add New Record'      => 'إضافة عنصر جديد',
+    'Action'               => 'الإجراءات',
+    'Full Name'            => 'الاسم الكامل',
+    'City'                 => 'المدينة',
+    'State'                => 'المحافظة',
+    'Country'              => 'البلد',
+    'Phone'                => 'الهاتف',
+    'Email'                => 'البريد الإلكتروني',
+    'ID'                   => 'رقم التعريف',
+    'Image'                => 'الصورة',
+    'Select Profile Image' => 'اختر صورة شخصية',
+    'Select City'          => 'اختر المدينة',
+    'Select State'         => 'اختر المحافظة',
+    'Select Country'       => 'اختر البلد',
+    'Password'             => 'كلمة المرور:',
+    'Confirmation'         => 'تأكيد',
+    'confirmMsg'           => 'هل أنت متأكد أنك تريد حذف البيانات؟',
+    'Cancel'               => 'إلغاء',
+    'Add'                  => 'إضافة',
+    'Adding...'            => 'جاري الإضافة...',
+    'Edit'                 => 'تعديل',
+    'Editing...'           => 'جاري التعديل...',
+    'Edit User'            => 'تعديل المستخدم',
+    'Delete User'          => 'حذف المستخدم',
+    'Deleting...'          => 'جاري الحذف....',
+    'Ok'                   => 'نعم',
+    'Delete'               => 'حذف',
+    'Role'                 => 'العضوية:',
+    'User'                 => 'مستخدم',
+    'Admin'                => 'مدير',
+];
